@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+  
+  body {  
+  font-size: clamp(1.2rem, calc(1.2rem + ((1vw - 0.32rem) * 0.4545)), 1.6rem);  
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  background-color: #fff;
+  }
+
+  h1, h2 {
+    margin: 0;
+  }
+
+.navbar--fooodllc {
+    padding: 0;
+}
+
+.menu__wrapper {
+    align-items: center;
+    background-color: lightgrey;
+    border-bottom: #000 1px solid;
+}
+
+.navbar__logo__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item--foodllc {
+    border-top: #000 solid 1px;
+    background-color: #fff;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.foodllc__main__content {
+    width: 95%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.item__wrapper {
+    background-color: lightgrey;
+}
+
